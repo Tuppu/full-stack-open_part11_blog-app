@@ -1,0 +1,7 @@
+PUT http://localhost:3003/api/blogs/66e96b86e77085528c3db190
+Content-Type: application/json
+Authorization: Bearer xxx
+
+{
+  "likes": 1
+}

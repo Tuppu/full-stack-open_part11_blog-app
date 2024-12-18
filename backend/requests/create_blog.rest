@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer ...
+
+{
+  "title": "uusi",
+  "author": "Tuomas Liikala",
+  "url": "https://www.yle5.fi",
+  "likes": 500
+}

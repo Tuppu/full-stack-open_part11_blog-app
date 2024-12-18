@@ -1,0 +1,27 @@
+{
+  "name": "full-stack-open_part11_blog-app",
+  "version": "1.0.0",
+  "description": "Full Stack Open - Part 11 - Blog App",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd ./blogs && npm install && cd ../backend && npm install",
+    "build": "cd ./blogs && npm run build",
+    "dev:blogs": "cd ./blogs && npm run dev",
+    "dev:backend": "cd ./backend && npm run dev",
+    "lint": "cd ./blogs && npm run lint && cd ../backend && npm run lint",
+    "lint:fix": "cd ./blogs && npm run lint:fix && cd ../backend && npm run lint:fix",
+    "start:prod": "cd ./backend && npm start:test",
+    "test:blogs": "cd ./blogs && npm run test",
+    "test:backend": "cd ./backend && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tuppu/full-stack-open_part11_blog-app.git"
+  },
+  "author": "Tuomas \"Tuppu\" Liikala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tuppu/full-stack-open_part11_blog-app/issues"
+  },
+  "homepage": "https://github.com/Tuppu/full-stack-open_part11_blog-app#readme"
+}
