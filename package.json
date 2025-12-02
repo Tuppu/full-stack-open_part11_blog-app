@@ -6,13 +6,17 @@
   "scripts": {
     "install": "cd ./blogs && npm install && cd ../backend && npm install",
     "build": "cd ./blogs && npm run build",
+    "build:backend": "cp -r ./blogs/dist ./backend/",
     "dev:blogs": "cd ./blogs && npm run dev",
     "dev:backend": "cd ./backend && npm run dev",
     "lint": "cd ./blogs && npm run lint && cd ../backend && npm run lint",
     "lint:fix": "cd ./blogs && npm run lint:fix && cd ../backend && npm run lint:fix",
+    "start": "cd ./backend && npm start",
     "start:prod": "cd ./backend && npm start:test",
+    "test": "npm run test:blogs && npm run test:backend",
     "test:blogs": "cd ./blogs && npm run test",
-    "test:backend": "cd ./backend && npm run test"
+    "test:backend": "cd ./backend && npm run test",
+    "eslint": "npm run lint"
   },
   "repository": {
     "type": "git",

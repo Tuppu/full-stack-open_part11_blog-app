@@ -8,9 +8,9 @@ const initialBlogs = [
     'url': 'https://www.yle.fi',
     'likes': 1,
     'user': {
-      'username': 'tuppu',
+      'username': 'root',
       'name': 'Tuomas Liikala',
-      '_id': '66ed2ae0813500c9bb343ed7'
+      '_id': '66f12281cde3bf9dead2fa5b'
     },
     '_id': '66e96b86e77085528c3db195'
   },
